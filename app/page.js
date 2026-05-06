@@ -8,7 +8,7 @@ const products = [
   {
     name: "MJ Origen",
     description: "Tradición que se siente, sabor que nos identifica.",
-    price: "$390 MXN",
+    price: "$395 MXN",
     image: "/images/mj-origen-product.jpg",
   },
 ];

@@ -190,12 +190,13 @@ h3 {
   min-height: 58px;
   border: 0;
   border-radius: 8px;
-  padding: 0 32px;
+  padding: 12px 32px;
   font: inherit;
   font-weight: 900;
   cursor: pointer;
   transition: transform 180ms ease, background 180ms ease, box-shadow 180ms ease;
   text-align: center;
+  line-height: 1.2;
 }
 
 .button:hover {
