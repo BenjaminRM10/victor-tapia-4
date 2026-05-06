@@ -8,7 +8,7 @@ const products = [
   {
     name: "MJ Origen",
     description: "Tradición que se siente, sabor que nos identifica.",
-    price: "Consulta el precio",
+    price: "$390 MXN",
     image: "/images/mj-origen-product.jpg",
   },
 ];
@@ -44,6 +44,12 @@ export default function HomePage() {
             cuidadosamente seleccionado y tostado para resaltar un sabor
             auténtico, con aroma intenso, notas equilibradas y un carácter único
             que refleja la riqueza de su origen.
+          </p>
+          <p>
+            Nuestro café representa el trabajo de productores locales y la
+            pasión por ofrecer una experiencia genuina en cada taza. Desde el
+            cultivo hasta el tostado, cada proceso se realiza con dedicación
+            artesanal para conservar la calidad y esencia del café veracruzano.
           </p>
           <div className="hero__actions">
             <a className="button button--primary" href="#productos">
@@ -200,7 +206,7 @@ function Footer({ logoUrl }) {
           <p>{siteConfig.address}</p>
           <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
           <a className="button button--primary button--small" href="/contacto">
-            Enviar mensaje
+            Enviar correo
           </a>
         </div>
       </div>

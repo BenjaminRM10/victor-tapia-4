@@ -228,6 +228,7 @@ h3 {
   min-height: 44px;
   padding-inline: 20px;
   font-size: 0.9rem;
+  text-align: center;
 }
 
 .metrics {
@@ -412,7 +413,8 @@ h3 {
 }
 
 .value-grid {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  justify-content: center;
 }
 
 .value-card {
