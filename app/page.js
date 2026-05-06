@@ -6,27 +6,15 @@ import {
 
 const products = [
   {
-    name: "Café de Altura",
-    description: "Notas balanceadas, acidez brillante y cuerpo medio.",
-    price: "$280 MXN",
-    image: "/images/product-cafe-altura.jpg",
-  },
-  {
-    name: "Tueste Oscuro",
-    description: "Perfil intenso con notas a cacao, nuez y caramelo.",
-    price: "$310 MXN",
-    image: "/images/product-tueste-oscuro.jpg",
-  },
-  {
-    name: "Blend MJ Origen",
-    description: "Mezcla de la casa para espresso y métodos filtrados.",
-    price: "$295 MXN",
-    image: "/images/product-blend-mj.jpg",
+    name: "MJ Origen",
+    description: "Tradición que se siente, sabor que nos identifica.",
+    price: "Consulta el precio",
+    image: "/images/mj-origen-product.jpg",
   },
 ];
 
 const processSteps = [
-  ["Cultivo de Origen", "Seleccionamos granos de regiones cafetaleras mexicanas."],
+  ["Cultivo de Origen", "Seleccionamos granos de Ixhuatlán del Café, Veracruz."],
   ["Tostado Artesanal", "Tostamos en lotes pequeños para controlar aroma y cuerpo."],
   ["Empaque Fresco", "Empacamos cada lote para conservar frescura hasta tu taza."],
 ];
@@ -35,7 +23,6 @@ const values = [
   ["Origen Mexicano", "Café con identidad, trazabilidad y sabor local."],
   ["Tueste Fresco", "Lotes recientes para una experiencia aromatica."],
   ["Pasion Artesanal", "Cuidamos cada etapa desde el grano hasta la taza."],
-  ["Calidad Gourmet", "Perfiles pensados para barras, hogares y mayoreo."],
 ];
 
 export default function HomePage() {
@@ -45,15 +32,18 @@ export default function HomePage() {
       <section className="hero">
         <div className="hero__overlay" />
         <div className="hero__content container">
-          <div className="badge"><span />Café Gourmet de Origen Mexicano</div>
+          <div className="badge"><span />Café Artesanal de Origen Mexicano</div>
           <h1>
             El Arte del Café
             <strong>Tostado a la Perfección</strong>
           </h1>
           <p>
-            Descubre el auténtico sabor del café mexicano. Desde el cultivo en
-            las mejores regiones cafetaleras hasta el tostado artesanal, cada
-            taza cuenta una historia de pasión y tradición.
+            MJ Origen es un café cultivado en las altas montañas de Ixhuatlán
+            del Café, ubicado entre Orizaba y Córdoba, que nace entre niebla,
+            tierra volcánica y tradición cafetalera mexicana. Cada grano es
+            cuidadosamente seleccionado y tostado para resaltar un sabor
+            auténtico, con aroma intenso, notas equilibradas y un carácter único
+            que refleja la riqueza de su origen.
           </p>
           <div className="hero__actions">
             <a className="button button--primary" href="#productos">
@@ -74,11 +64,11 @@ export default function HomePage() {
       <section id="productos" className="section section--cream">
         <div className="container">
           <div className="section__intro">
-            <span className="eyebrow">Productos destacados</span>
-            <h2>Cafés creados para disfrutar cada taza</h2>
+            <span className="eyebrow">Producto destacado</span>
+            <h2>MJ Origen - Café Artesanal</h2>
             <p>
-              Perfiles seleccionados para hogar, barra y pedidos de mayoreo.
-              Los precios y descripciones se pueden editar fácilmente.
+              Café de Ixhuatlán del Café, Veracruz. Tostado artesanalmente para
+              llevar a tu taza el auténtico sabor del café mexicano.
             </p>
           </div>
           <div className="product-grid">
@@ -196,7 +186,7 @@ function Footer({ logoUrl }) {
       <div className="container footer__grid">
         <div>
           <img src={logoUrl} alt="MJ Origen" />
-          <p>Café gourmet mexicano cultivado, tostado y servido con origen.</p>
+          <p>Café artesanal mexicano cultivado, tostado y servido con origen.</p>
         </div>
         <div>
           <h3>Explorar</h3>
