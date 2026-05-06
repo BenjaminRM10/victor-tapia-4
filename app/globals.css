@@ -195,6 +195,7 @@ h3 {
   font-weight: 900;
   cursor: pointer;
   transition: transform 180ms ease, background 180ms ease, box-shadow 180ms ease;
+  text-align: center;
 }
 
 .button:hover {
@@ -300,6 +301,7 @@ h3 {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 26px;
+  justify-items: center;
 }
 
 .product-card,
